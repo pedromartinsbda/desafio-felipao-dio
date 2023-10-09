@@ -1,20 +1,20 @@
 let nome = "Homem-Aranha"
-let XP = 7000
+let xp = 7000
 let patente = 0
 
-if (XP < 1000) {
+if (xp < 1000) {
     patente = "Ferro"
-} else if (XP >= 1001 && XP <= 2000) {
+} else if (xp >= 1001 && XP <= 2000) {
     patente = "Bronze";
-} else if (XP >= 2001 && XP <= 5000) {
+} else if (xp >= 2001 && XP <= 5000) {
     patente = "Prata";
-} else if (XP >= 6001 && XP <= 7000) {
+} else if (xp >= 6001 && XP <= 7000) {
     patente = "Ouro";
-} else if (XP >= 7001 && XP <= 8000) {
+} else if (xp >= 7001 && XP <= 8000) {
     patente = "Platina";
-} else if (XP >= 8001 && XP <= 9000) {
+} else if (xp >= 8001 && XP <= 9000) {
     patente = "Ascendente";
-} else if (XP >= 9001 && XP <= 10000) {
+} else if (xp >= 9001 && XP <= 10000) {
     patente = "Imortal";
 } else {
     patente = "Radiante";
